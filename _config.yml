@@ -1,5 +1,5 @@
 # Base configs
-baseurl: "https//www.khendaniel.com/photography"
+baseurl: "photography.khendaniel.com"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-125032359-1"
