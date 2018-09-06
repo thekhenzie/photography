@@ -37,9 +37,9 @@ layout: default
                 <section>
                     <h2>{{ site.footer.name }}</h2>
                     <p>{{ site.footer.bio }}</p>
-                    <p>{{ site.footer.github }}</p>
+                    <!-- <p>{{ site.footer.github }}</p> -->
                 </section>
-                <section>
+                <!-- <section>
                     <h2>Sponsor</h2>
                     <div class="ad">
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -53,9 +53,9 @@ layout: default
                             (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
                     </div>
-                </section>
+                </section> -->
                 <section>
-                    <h2>Follow me on ...</h2>
+                    <h2>Follow me on </h2>
                     <ul class="icons">
                         {% if site.social_urls.facebook %}
                             <li>
@@ -75,13 +75,6 @@ layout: default
                             <li>
                                 <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
                                     <span class="label">Instagram</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.dribbble %}
-                            <li>
-                                <a href="{{ site.social_urls.dribbble }}" class="icon fa-dribbble">
-                                    <span class="label">Dribbble</span>
                                 </a>
                             </li>
                         {% endif %}
